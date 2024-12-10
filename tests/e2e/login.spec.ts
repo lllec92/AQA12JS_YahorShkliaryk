@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import { test, expect } from '@playwright/test';
-import { TestRailPage } from '../../utils/GlobalPOM';
+import { TestRailPage } from '../../utils/TestrailPage';
 
 test('logIn to testrail', { tag: "@smoke" }, async ({ page }) => {
   const tr = new TestRailPage(page)
