@@ -34,5 +34,6 @@ jobs:
 
       - run: npm install
       - run: npx playwright install
-      - run: npm test
+      - run: npm test:chrome
+      - run: npm test:firefox
       
