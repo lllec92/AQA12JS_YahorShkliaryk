@@ -2,4 +2,7 @@
   "devDependencies": {
     "@types/node": "^22.10.1"
   }
+  "scripts": {
+    "test:chrome": "npx playwright test —-project chromium",
+    "test:firefox": "npx playwright test —-project firefox",
 }
