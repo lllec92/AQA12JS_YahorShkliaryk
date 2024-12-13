@@ -6,5 +6,8 @@
   "dependencies": {
     "dotenv": "^16.4.7"
   },
-  "scripts": {}
+  "scripts": {
+    "test:chrome": "npx playwright test —-project chromium",
+    "test:firefox": "npx playwright test —-project firefox",
+  }
 }
