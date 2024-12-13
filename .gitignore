@@ -2,3 +2,6 @@
 /playwright-report/
 /test-results/
 /tests-examples/
+node_modules/
+/blob-report/
+/playwright/.cache/

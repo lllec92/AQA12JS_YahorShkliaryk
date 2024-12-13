@@ -1,8 +1,13 @@
 {
   "devDependencies": {
+    "@playwright/test": "^1.49.1",
     "@types/node": "^22.10.1"
-  }
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
   "scripts": {
     "test:chrome": "npx playwright test —-project chromium",
-    "test:firefox": "npx playwright test —-project firefox",
+    "test:firefox": "npx playwright test —-project firefox"
+  }
 }
